@@ -97,11 +97,16 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-minos-master
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:yt8yt/yt8yt.github.io.git
-  branch: master
+  repo: 
+    github:
+      url: https://github.com/Guillaume-Cr/Guillaume-Cr.github.io.git
+      branch: main
+      token: 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
+  name: "Guillaume-Cr"
+  email: "gcrabemp@gmail.com"
